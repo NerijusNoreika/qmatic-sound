@@ -1,10 +1,11 @@
 let sounds = [ 
-    "sounds/hard.mp3",
-]
+    "sounds/default.mp3",
+    "sounds/uplifting.mp3"
+];
 
 window.addEventListener('load', () => {
     let query = '#queuesModule .qm-tab-information > .qm-tab-information__text';
-    let audio = new Audio(chrome.runtime.getURL("sounds/hard.mp3"));
+    let audio = new Audio(chrome.runtime.getURL(sounds[0]));
     let firstStart = true;
     let ticketNumber = document.querySelector('#ticketNumber');
     let doc = document.querySelector(query);
