@@ -1,4 +1,4 @@
-# QMATIC sound - extension for chrome
+# QMATIC sound - extension for Chrome browser
 
 ![Example image](/img/feature_image.jpg)
 
