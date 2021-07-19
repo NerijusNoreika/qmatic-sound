@@ -12,6 +12,7 @@
     "content_scripts": [
         {
             "matches": ["http://*/workstationterminal/*", "https://*/workstationterminal/*"],
+            "css": ["css/main.css", "bootstrap.min.css"],
             "js": ["content.js"],
             "run_at": "document_end"
 
@@ -22,6 +23,7 @@
         "default_title": "QMATIC Orchestra sound"
     },
     "web_accessible_resources": [
-        "sounds/*"
+        "sounds/*",
+        "css/*"
     ]
 }
