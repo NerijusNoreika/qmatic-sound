@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "QMAtic Orchesta Sound"
+    },
+    "extDescription": {
+        "message": "Unofficial web extension created for queueing system QMATIC Orchestra to get sound notifications in queue."
+    },
+    "chooseSound": {
+        "message": "Chose sound to play"
+    }
+}

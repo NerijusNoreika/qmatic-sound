@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "QMAtic Orchesta Sound"
+    },
+    "extDescription": {
+        "message": "Neoficialus naršyklės papildinys, sukurtas QMATIC eilių valdymo sistemai, pridedant galimybę išgirsti garsą, kai klientas išsiima bilietuką."
+    },
+    "chooseSound": {
+        "message": "Pasirinkite garso įrašą."
+    }
+}
