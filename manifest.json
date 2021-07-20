@@ -1,9 +1,10 @@
 {
-    "name": "QMATIC Orchestra sound",
-    "description": "Unofficial web extension created for queueing system QMATIC Orchestra to get sound notifications in queue.",
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
     "version": "1.0",
     "author": "Nerijus Noreika",
     "manifest_version": 2,
+    "default_locale": "lt",
     "icons": {
         "16": "img/16.png",
         "48": "img/48.png",
@@ -12,7 +13,7 @@
     "content_scripts": [
         {
             "matches": ["http://*/workstationterminal/*", "https://*/workstationterminal/*"],
-            "css": ["css/main.css", "bootstrap.min.css"],
+            "css": ["css/main.css", "css/bootstrap.min.css"],
             "js": ["content.js"],
             "run_at": "document_end"
 
@@ -24,6 +25,11 @@
     },
     "web_accessible_resources": [
         "sounds/*",
-        "css/*"
+        "css/*",
+        "localization.js",
+        "popup.js"
+    ],
+    "permissions": [
+        "storage"
     ]
 }
